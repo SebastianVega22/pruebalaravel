@@ -23,7 +23,7 @@ Usa MySQL (puerto 3307) y migraciones automáticas.
 git clone https://github.com/SebastianVega22/pruebalaravel.git
 cd pruebalaravel
 composer install
-cp .env.example .env
+cp .env
 php artisan key:generate
 php artisan migrate
 php artisan serve
